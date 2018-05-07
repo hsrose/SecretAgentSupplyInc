@@ -1,4 +1,5 @@
 html {
+  font-family: Helvetica;
   font-size: 18px;
   color: grey;
 }
@@ -29,7 +30,6 @@ html {
 }
 
 .header h3 {
-  font-family: Helvetica;
   font-size: 1rem;
   text-align: center;
   margin-top: 0.66rem;
