@@ -81,3 +81,62 @@ a {
 .navigation li {
 
 }
+
+/* Product grid section */
+/* Need to shrink glasses image */
+/* Change "Proeuct-grid" to more suitable name */
+
+.product-grid {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.product {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  border: 4px solid black;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.product-grid img {
+  height: 9rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border: 1px solid yellow; /*remove at the end */
+}
+
+.product h4 {
+  background-color: black;
+  width: 100%;
+  text-align: center;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+}
+
+.location-text {
+  width: 35%;
+  border: 2px dotted green;
+  margin-bottom: 4rem;
+}
+
+.location-text h3 {
+  background-color: black;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  padding-left: 2rem;
+}
+
+/* Footer section */
+/* How to position vertically center? */
+
+footer {
+  width: 100%;
+  height: 5rem;
+  text-align: left;
+  align-items: center;
+  border: 1px dotted red;
+  background-color: black;
