@@ -8,31 +8,53 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: black;
+  background-color: lightgrey;
 }
 
 .container {
   width: 960px;
-  border: 1px dotted red;
+  margin: 0 auto;
+  border: 2px dotted red; /* remove this at the end */
 }
 
 .header {
   display: flex;
-  justify-content: flex-start;
-  padding-left: 0.5rem;
-  padding-right: 1rem;
+  align-items: center;
 }
 
-.logo {
+.header img {
   height: 1.5rem;
   margin-left: 0.5rem;
   margin-right: 1rem;
 }
 
-.header h3 {
+.header span {
   font-size: 1rem;
-  text-align: center;
   margin-top: 0.66rem;
   margin-bottom: 0.66rem;
-  margin-left: 1rem;
+}
+
+.banner {
+  background-image: url("../images/moto.jpeg");
+  height: 25rem;
+  width: 100%;
+  border: 2px dotted yellow;
+}
+
+.banner-text {
+  background-color: blue; /* <---- change to black */
+  width: 20rem;
+  margin-top: 9rem;
+  padding: 2rem 3rem;
+}
+
+.banner-text h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 0.25rem;
+}
+
+.banner-text h1 {
+  font-size: 2rem;
+  font-weight: bold;
 }
