@@ -4,11 +4,15 @@ html {
   color: grey;
 }
 
+a {
+  color: grey;
+}
+
 .main {
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: lightgrey;
+  background-color: lightgrey; /* change background color to black at the end */
 }
 
 .container {
@@ -38,11 +42,11 @@ html {
   background-image: url("../images/moto.jpeg");
   height: 25rem;
   width: 100%;
-  border: 2px dotted yellow;
+  border: 2px dotted yellow; /* remove this at the end */
 }
 
 .banner-text {
-  background-color: blue; /* <---- change to black */
+  background-color: black;
   width: 20rem;
   margin-top: 9rem;
   padding: 2rem 3rem;
@@ -57,4 +61,23 @@ html {
 .banner-text h1 {
   font-size: 2rem;
   font-weight: bold;
+}
+
+/* Navigation Bar */
+/* Need to remove underline */
+
+.navigation {
+  background-color: firebrick;
+  width: 100%;
+}
+
+.navigation ul {
+  display:flex;
+  justify-content: space-between;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.navigation li {
+
 }
