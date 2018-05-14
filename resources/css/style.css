@@ -1,5 +1,4 @@
 html {
-  background-color: grey;
   font-family: Helvetica;
   font-size: 18px;
   color: white;
@@ -16,11 +15,16 @@ a {
   align-items: center;
   background-color: white;
   width: 100%;
+  /* Border for guiding only
+  border: 1px solid grey; */
 }
 
 .container {
   width: 960px;
   margin: 0 auto;
+    /* Border for guiding only
+    border: 1px dotted orange; */
+    border: 1px solid blue;
 }
 
 /* Header section */
@@ -58,11 +62,19 @@ header span {
   width: 100%;
 }
 
+/*.banner .container {
+  height: 25rem;
+}*/
+
 .banner-text {
   background-color: black;
   width: 20rem;
-  margin-top: 9rem;
+  position: absolute;
+  top: 9rem;
+
+  /* margin-top: 9rem; */ /* Margin here was wrong */
   padding: 2rem 3rem;
+
 }
 
 .banner-text h3 {
@@ -176,6 +188,10 @@ footer {
 
 @media only screen and (max-width: 1024px) {
 
+  .container {
+    width: 100%;
+  }
+
   .navigation ul {
     display: none;
   }
@@ -218,7 +234,8 @@ footer {
   }
 
   .banner-text {
-    margin-top: 10rem;
+    position: absolute;
+    top: 10rem;
     padding: 1rem 2rem;
   }
 
