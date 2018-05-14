@@ -176,3 +176,30 @@ footer {
   border: 1px dotted red;
   background-color: black;
 }
+
+/* Tablet version */
+
+@media only screen and (max-width: 1024px) {
+  .navigation ul {
+    display: none;
+  }
+
+  .navigation h1 {
+    display:flex;
+    justify-content: center;
+    margin-top: 0.75rem;
+    margin-bottom: 0.75rem;
+  }
+
+  .product {
+    width: 47%;
+  }
+
+  .product.glasses {
+    display: none;
+  }
+
+  .location-text {
+    width: 35%;
+  }
+}
