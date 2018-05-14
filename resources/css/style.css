@@ -15,14 +15,14 @@ a {
   flex-direction: column;
   align-items: center;
   background-color: white;
-  border: 5px solid purple;
+  border: 1px solid grey;
   width: 100%;
 }
 
 .container {
   width: 960px;
   margin: 0 auto;
-  border: 2px dotted orange;
+  border: 1px dotted orange;
 }
 
 /* Header section */
@@ -43,7 +43,6 @@ header img {
   height: 1.5rem;
   margin-left: 0.5rem;
   margin-right: 1rem;
-  border: 1px dotted white;
 }
 
 header span {
@@ -59,7 +58,7 @@ header span {
   background-size: cover;
   height: 25rem;
   width: 100%;
-  border: 2px dotted yellow;
+  border: 1px dotted yellow;
 }
 
 .banner-text {
@@ -120,7 +119,7 @@ header span {
   justify-content: flex-end;
   width: 30%;
   background-color: white;
-  border: 4px solid black;
+  border: 4px solid black; /* Required */
   margin-top: 3rem;
   margin-bottom: 3rem;
 }
@@ -129,13 +128,11 @@ header span {
   height: 9rem;
   margin-top: 2rem;
   margin-bottom: 2rem;
-  border: 1px dotted red;
 }
 
 img.glasses {
   height: 4.5rem;
   width: auto;
-  border: 1px dotted red;
   margin-top: 4.25rem;
   margin-bottom: 4.25rem;
 }
@@ -150,7 +147,7 @@ img.glasses {
 
 .location-text {
   width: 35%;
-  border: 2px dotted green;
+  border: 1px dotted green;
   margin-bottom: 4rem;
 }
 
@@ -175,7 +172,7 @@ footer {
   height: 10rem;
   color: white;
   text-align: left;
-  border: 1px dotted red;
+  border: 1px dotted white;
   background-color: black;
 }
 
@@ -241,7 +238,91 @@ footer {
     width: 100%;
   }
 
+  /* Product grid section */
 
+  .product-grid.container {
+    width: 90%;
+  }
+
+  .product {
+    width: 100%;
+  }
+
+  .product.watch {
+    display: none;
+  }
+
+  .product-grid.container.location {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 90%;
+  }
+
+  .location-text {
+    width: 100%;
+    margin-bottom: 0.5rem;
+  }
+    /*
+  .product-grid {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: white;
+  }
+
+  .product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30%;
+    background-color: white;
+    border: 4px solid black;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+
+  .product-grid img {
+    height: 9rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    border: 1px dotted red;
+  }
+
+  img.glasses {
+    height: 4.5rem;
+    width: auto;
+    border: 1px dotted red;
+    margin-top: 4.25rem;
+    margin-bottom: 4.25rem;
+  }
+
+  .product h4 {
+    background-color: black;
+    width: 100%;
+    text-align: center;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+
+  .location-text {
+    width: 35%;
+    border: 2px dotted green;
+    margin-bottom: 4rem;
+  }
+
+  .location-text h3 {
+    background-color: black;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    padding-left: 2rem;
+  }
+
+  .location-text h4 {
+    color: grey;
+  }
+*/
 
 
 }
