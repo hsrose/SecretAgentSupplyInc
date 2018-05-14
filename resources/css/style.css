@@ -49,3 +49,31 @@ header span {
   margin-top: 0.66rem;
   margin-bottom: 0.66rem;
 }
+
+/* Banner section */
+
+.banner {
+  background-image: url("../images/moto.jpeg");
+  background-size: cover;
+  height: 25rem;
+  width: 100%;
+  border: 2px dotted yellow;
+}
+
+.banner-text {
+  background-color: black;
+  width: 20rem;
+  margin-top: 9rem;
+  padding: 2rem 3rem;
+}
+
+.banner-text h3 {
+  font-size: 1rem;
+  font-weight: bold;
+  padding-bottom: 0.25rem;
+}
+
+.banner-text h1 {
+  font-size: 2rem;
+  font-weight: bold;
+}
