@@ -15,12 +15,14 @@ a {
   flex-direction: column;
   align-items: center;
   background-color: white;
+  border: 5px solid purple;
+  width: 100%;
 }
 
 .container {
   width: 960px;
   margin: 0 auto;
-  border: 2px dotted red;
+  border: 2px dotted orange;
 }
 
 /* Header section */
@@ -180,12 +182,13 @@ footer {
 /* Tablet version */
 
 @media only screen and (max-width: 1024px) {
+
   .navigation ul {
     display: none;
   }
 
   .navigation h1 {
-    display:flex;
+    display: flex;
     justify-content: center;
     margin-top: 0.75rem;
     margin-bottom: 0.75rem;
@@ -234,6 +237,9 @@ footer {
     font-size: 1rem;
   }
 
+  .navigation .container {
+    width: 100%;
+  }
 
 
 
