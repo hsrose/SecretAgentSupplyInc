@@ -77,3 +77,21 @@ header span {
   font-size: 2rem;
   font-weight: bold;
 }
+
+/* Navigation Bar */
+
+.navigation {
+  background-color: firebrick;
+  width: 100%;
+}
+
+.navigation ul {
+  display:flex;
+  justify-content: space-between;
+  margin-top: 0.75rem;
+  margin-bottom: 0.75rem;
+}
+
+.navigation h1 {
+  display: none;
+}
