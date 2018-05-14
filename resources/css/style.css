@@ -203,3 +203,39 @@ footer {
     width: 35%;
   }
 }
+
+/* Mobile phone version */
+
+@media only screen and (max-width: 470px) {
+
+  header .container {
+  justify-content: center;
+  }
+
+  header span {
+  display: none;
+  }
+
+  .banner {            /* banner text width is wrong */
+    height: 15rem;
+    width: 100%;
+  }
+
+  .banner-text {
+    margin-top: 10rem;
+    padding: 1rem 2rem;
+  }
+
+  .banner-text h3 {
+    font-size: 0.77rem;
+  }
+
+  .banner-text h1 {
+    font-size: 1rem;
+  }
+
+
+
+
+
+}
