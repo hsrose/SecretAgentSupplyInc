@@ -162,3 +162,17 @@ img.glasses {
 .location-text h4 {
   color: grey;
 }
+
+/* Footer section */
+
+footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 10rem;
+  color: white;
+  text-align: left;
+  border: 1px dotted red;
+  background-color: black;
+}
