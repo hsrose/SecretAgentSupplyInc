@@ -15,14 +15,12 @@ a {
   flex-direction: column;
   align-items: center;
   background-color: white;
-  border: 1px solid grey;
   width: 100%;
 }
 
 .container {
   width: 960px;
   margin: 0 auto;
-  border: 1px dotted orange;
 }
 
 /* Header section */
@@ -58,7 +56,6 @@ header span {
   background-size: cover;
   height: 25rem;
   width: 100%;
-  border: 1px dotted yellow;
 }
 
 .banner-text {
@@ -147,7 +144,6 @@ img.glasses {
 
 .location-text {
   width: 35%;
-  border: 1px dotted green;
   margin-bottom: 4rem;
 }
 
@@ -172,7 +168,6 @@ footer {
   height: 10rem;
   color: white;
   text-align: left;
-  border: 1px dotted white;
   background-color: black;
 }
 
